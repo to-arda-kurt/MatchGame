@@ -1,0 +1,3 @@
+# Project
+
+This is a simple game that challenges the player to match pairs of animal pictures. The game board consists of a grid of cards, each of which has a picture of an animal. The player can choose two cards at a time to reveal their pictures. If the pictures match, the cards disapear and the player scores points. If the pictures don't match, the cards flip back over and the player tries again. The game ends when all pairs have been matched.

@@ -39,6 +39,18 @@ namespace MatchGame
                 "🦑","🦑",
                 "🦞","🦞"
             };
+
+
+            Random random = new Random();
+            foreach (TextBlock textBlock in gameGrid.Children.OfType<TextBlock>())
+            {
+                int index = random.Next(animalEmoji.Count);
+                string emoji = animalEmoji[index];
+                textBlock.Text = emoji;
+                animalEmoji.RemoveAt(index);
+            }
+
+
         }
         
     }
